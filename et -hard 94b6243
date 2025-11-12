@@ -1,0 +1,293 @@
+[33m94b6243[m[33m ([m[1;36mHEAD -> [m[1;32medit-1.0.0[m[33m)[m Upload self built apps package
+[33m05c39f7[m Upload self built apps package
+[33m5fc66e5[m Upload self built apps package
+[33m378d8ae[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/edit-1.0.0[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m feat(BREAKING): remove legacy variant
+[33mb45366d[m ci: add clippy to components for toolchain
+[33m2ad8c02[m chore: core_lib update deps & blte behind feature
+[33md17c714[m fix: packageName is lowercase for wayland icon match
+[33m2c5feed[m[33m ([m[1;33mtag: v0.11.5[m[33m)[m chore(master): release 0.11.5 (#275)
+[33m73ca183[m fix: added permissions to clipboard-manager (#287)
+[33m0ec544c[m chore: grammar and spelling correction on docs (#269)
+[33mc3d6c1a[m fix(main): build with conditional icon
+[33md08bb66[m fix: tray icon visible dark/white mode (#274)
+[33m4e8cf0d[m[33m ([m[1;33mtag: v0.11.4[m[33m)[m chore(master): release 0.11.4 (#267)
+[33m02e6898[m chore: force release to 0.11.4
+[33m5ff8591[m feat: improve logo design (by @ux-git)
+[33m7611d55[m[33m ([m[1;33mtag: v0.11.3[m[33m)[m chore(master): release 0.11.3 (#200)
+[33m5915f3b[m fix: do not spam temp notification
+[33mf6ae4b9[m fix(main): double system tray icon & quality(?)
+[33ma27f816[m chore: remove TODO file
+[33m32f5076[m chore: update dependencies
+[33m93b20dd[m fix: compilation on musl due to sys_metrics
+[33m72d6c71[m fix: handle non-UTF-8 endpoint_name (#243)
+[33me31f9a2[m doc: add description of cannot run or get any windows. (#239)
+[33mae31d0f[m chore: improve README for firewall (custom port)
+[33m59bc405[m Fix: Include file_name in PayloadHeader (#231)
+[33m7d68734[m fix: tauri breaking changes
+[33mb3e7be4[m ci: dependabot switch to monthly
+[33m8c4fbc3[m chore: make instructions less specific about deps
+[33m807d959[m chore: readme instructions for Ubuntu 22.04.6 LTS (#211)
+[33m3fb75f0[m chore: add DNF in README (#230)
+[33m7a9c0e5[m fix: store in main Vue app due to upgrade to 2.0.0 of store
+[33m91487bb[m fix: store issues due to 2.0.0
+[33mcd48597[m chore: improper error message for copying error
+[33m10bede9[m deps(core_lib): bump the dependencies group across 1 directory with 3 updates (#210)
+[33md683001[m chore(core_lib): update deps
+[33m7ff369c[m chore: update to Tauri v2 stable
+[33mcd237a5[m fix: once_cell 1.20 yanked
+[33mbf071b8[m deps(core_lib): bump the dependencies group across 1 directory with 7 updates (#197)
+[33m30e4c42[m deps(main-npm): bump the dependencies group across 1 directory with 22 updates (#196)
+[33md5d045b[m[33m ([m[1;33mtag: v0.11.2[m[33m)[m chore(master): release 0.11.2 (#181)
+[33m06c41d5[m ci: release as pre-release first
+[33m5cc3f94[m ci: don't set release as draft first
+[33m50bc6c8[m fix: file picker different types returned
+[33md15e6cd[m chore: remove gen folder from git
+[33m3d2bf07[m deps(main-npm): bump the dependencies group in /app/main with 8 updates (#172)
+[33m1607522[m deps(core_lib): bump the dependencies group in /core_lib with 2 updates (#171)
+[33m52d3089[m fix(ci): upgrade (again) to googleapis/release-please-action
+[33mf62b9c0[m fix: display red circle if error/cancelled/rejected, #128
+[33ma643c2e[m[33m ([m[1;33mtag: v0.11.1[m[33m)[m chore(master): release 0.11.1 (#164)
+[33m0b50082[m fix: opening URL permission for main (#165)
+[33m69a18b3[m chore: update README
+[33mfedf800[m deps(main-npm): bump @vue/devtools (#162)
+[33mc977e6e[m deps(core_lib): bump serde (#161)
+[33m7584073[m fix(revert): use old google-github-actions/release-please-action
+[33m08a33f0[m[33m ([m[1;33mtag: v0.11.0[m[33m)[m chore(master): release 0.11.0 (#145)
+[33md20426d[m ci: release please as draft first
+[33m30058f1[m chore: sync vue_lib
+[33m72d0ec3[m chore(refactor): div the vue app into smaller pieces
+[33mb06431d[m fix: missing check for open
+[33ma32c685[m chore: update min typescript version
+[33m63464b3[m feat: rework texts's payload transfer info to frontend
+[33mf3eb2aa[m chore(refactor): move settings modal to own composables
+[33m3fd00c4[m feat: update core_lib to report text payload type
+[33mfa63e82[m fix: attempt to use tauri's shell open
+[33mc35a06c[m fix: also open_detached in core_lib
+[33m22410f2[m fix: attempt to use open::detached for #88 and #91
+[33mb2311fe[m add info about protobuf-compiler in BUILD.md (#157)
+[33m6f96ecb[m deps(main-npm): bump the dependencies group across 1 directory with 14 updates (#152)
+[33m8850ef9[m chore: update Cargo.lock files
+[33m61aabf3[m deps(core_lib): bump the dependencies group in /core_lib with 8 updates (#149)
+[33m4208ef9[m deps(actions): bump pnpm/action-setup in the dependencies group (#148)
+[33m0088d74[m chore: update .dependatbot.yml and make it useful
+[33mf82fedd[m chore: add debug to open_url for #88
+[33mbaab9a7[m ci: ensure same vue_lib
+[33m7c8ce74[m fix: vue_lib is not a lib anymore, I give up for now
+[33me084c4b[m feat: add minimize on startup option
+[33m768d4e4[m ci(fix): install vue_lib deps before running build
+[33m4e45096[m fix: clippy error in main.rs(legacy)
+[33me77f7cb[m fix: rework vue_lib plugin
+[33mcdcf5f3[m feat: rework app closing & quit & prevent
+[33mae4e178[m ci: publish all bundle & ensure no cached one
+[33mbcbf1e7[m ci: build debug & generate all bundles
+[33m01fb516[m chore: externalize semver
+[33mb9e1cfb[m chore(main): update Tauri to rc0
+[33ma5e118a[m fix: import not found for ToastNotification
+[33me208d68[m chore: add lock file for main app
+[33m4798d78[m feat: add toast notification if error while open_url
+[33m741d688[m chore: update README.md
+[33mda24e98[m[33m ([m[1;33mtag: v0.10.2[m[33m)[m chore(master): release 0.10.2 (#132)
+[33m9709c52[m fix: legacy should not be built for macos
+[33m037100a[m fix: also build x86 macos & update deps
+[33m0fc7021[m chore: update README to remove workaround for mac
+[33m64ef7d4[m[33m ([m[1;33mtag: v0.10.1[m[33m)[m chore(master): release 0.10.1 (#125)
+[33m6fe719a[m chore: apply clippy error
+[33m44de621[m fix(tauri): add default (-) signing identity for macos
+[33m758ada8[m fix: correctly remove device from list when sending
+[33m614bcbc[m fix: avoid click propagation when clicking child
+[33m8a8185e[m[33m ([m[1;33mtag: v0.10.0[m[33m)[m chore(master): release 0.10.0 (#122)
+[33m4710dae[m feat: add new version notification
+[33m4f4caf5[m chore: add info about bluetooth in the README
+[33m6bbcee4[m chore: update Rust deps
+[33mac8feb7[m chore: update ts-rs
+[33m0a066d8[m fix: bluetooth advertisement is working now
+[33m121631c[m fix: blea use correct service_data
+[33m5151f99[m fix: set dbus to vendored for aarch64 (#118)
+[33mb1609a5[m chore: update BUILD.md for app/main
+[33m277ee83[m ci: update action-gh-release to v2
+[33m35fcb1d[m chore: update README
+[33mf850713[m[33m ([m[1;33mtag: v0.9.0[m[33m)[m chore(master): release 0.9.0 (#108)
+[33m46e037d[m chore: add macos to README
+[33mdacb7da[m fix(ci): debug upload name conflicted
+[33m1578081[m fix: release bundle rename
+[33m643e8ab[m Merge pull request #114 from Martichou/macos_support
+[33mc851df3[m ci: release with macos :)
+[33m373460e[m feat: add back name inside tray menu on v2
+[33m20606d2[m fix: upload name duplicated
+[33m4e1b668[m ci: use protoc with GITHUB_TOKEN
+[33mad08e9f[m fix: useless format and not used id
+[33m3cce6b0[m fix: _id is not a field, use id :)
+[33m2f381f7[m ci: add macos CI build
+[33mefb5982[m feat: 'finish' macos support
+[33m8a57a11[m feat: support notification on macos (no action)
+[33m2e7857c[m feat: prepare for macos support
+[33m61d2516[m chore: update devtools to remove warnings
+[33mbc49f65[m fix: attempt to fix pnpm issue
+[33mccf99c3[m chore: add note for pkg distribution
+[33m5859434[m fix: missing appindicator library pkg and fix glob for release
+[33m73211cd[m Merge pull request #112 from Martichou/tauri_v2
+[33m00c9a63[m chore: add TODOs
+[33m2bfd5f7[m chore: even more common TS to vue_lib
+[33m70ca86d[m ci: modify release with Tauri V2
+[33m0c8230b[m chore: move some common TS to vue_lib
+[33m8cdb735[m chore: release-please track version of main too
+[33mfcc2228[m ci: add CI for main Tauri (V2)
+[33m3c97e6d[m feat: drag&drop working now
+[33m1e007db[m fix: fmt script go back to correct directory
+[33ma286591[m feat: TS migrated to Tauri V2
+[33ma3226fc[m feat: migrate V1 codebase for V2
+[33mba4f16f[m feat: add Tauri V2 codebase
+[33m4128d74[m chore: restructure to prepare for cohab w/Tauri V2
+[33m87265b5[m chore: add explaination for Samsung workaround not working
+[33mc595dcd[m fix: improve sanity wait
+[33m505258c[m fix: display received file.s once finished
+[33mf6c0a58[m chore: nixOS is stable and unstable
+[33mf2c1409[m chore: reformat/cleanup yet again
+[33m117e0c4[m[33m ([m[1;33mtag: v0.8.2[m[33m)[m chore(master): release 0.8.2 (#106)
+[33m8b9d182[m fix: prevent task from exiting if recv fails
+[33m4e33789[m[33m ([m[1;33mtag: v0.8.1[m[33m)[m chore(master): release 0.8.1 (#105)
+[33m18b37b7[m fix: release artifacts
+[33m8e614bd[m[33m ([m[1;33mtag: v0.8.0[m[33m)[m chore(master): release 0.8.0 (#76)
+[33m5db6aec[m chore: add NixOS to readme
+[33m5712b3b[m feat: configure logging level with config file (#104)
+[33mcf324f5[m chore: update README to add AUR installation
+[33m2f463f2[m chore(deps): upgrade dependencies of all (#90)
+[33m42c84d2[m fix: index.ts is sorted now
+[33m3ae1396[m fix: make the app feel like 'real'
+[33m7f3dbac[m fix: add desktop plugs to snapcraft (#80)
+[33m4027cbe[m fix: ensure correct service_data before notifying
+[33m63bf50e[m ci: fix path in build_ubuntu.yml
+[33m8b5a2b7[m chore: update core_lib bindings
+[33m1084079[m fix: improve logging and allow to configure (env)
+[33m151cbfd[m chore: add debug info for device sharing nearby
+[33mb6aa08e[m ci: only publish relevant bundle
+[33m108db73[m[33m ([m[1;33mtag: v0.7.1[m[33m)[m chore(master): release 0.7.1 (#72)
+[33m8bab368[m fix: auto snap version
+[33m2eae4a3[m[33m ([m[1;33mtag: v0.7.0[m[33m)[m chore(master): release 0.7.0 (#70)
+[33m4db4383[m feat: add outbound progress (#69)
+[33m13236db[m chore(ci): add snapcraft (#64)
+[33mdc8c82e[m ci: publish release files only if from tag
+[33mf3a23d3[m ci: stop renaming bundle with glibc
+[33m37e4a60[m[33m ([m[1;33mtag: v0.6.0[m[33m)[m chore(master): release 0.6.0 (#61)
+[33md6c40f3[m ci: only build appimage for debug
+[33mf154e90[m feat: add incoming transfer progress (#47)
+[33m7091df0[m feat: add option to change destination folder (#60)
+[33m0eadc8f[m chore: update TS bindings
+[33m1f2c7fc[m[33m ([m[1;33mtag: v0.5.0[m[33m)[m chore(master): release 0.5.0 (#51)
+[33m8188bfb[m feat: allow to select a specific port number
+[33m3597da8[m fix: go back to flex-col for itms
+[33m4112d9e[m chore: update demo image
+[33m2ccf5be[m[33m ([m[1;33mtag: v0.4.1[m[33m)[m chore(master): release 0.4.1 (#43)
+[33m25b5b62[m ci: fix Rust cache path
+[33md592b8e[m chore: release 0.4.1
+[33mbdf6ba0[m chore: run fmt and clippy
+[33mf8a7732[m feat: support text payload (to clipboard)
+[33m69840b8[m fix: support sharing WiFi (act as text)
+[33m97a1dea[m fix: scroll when multiple requests/results
+[33m23b681c[m fix: release-please update .lock files
+[33m3853eef[m[33m ([m[1;33mtag: v0.4.0[m[33m)[m chore(master): release 0.4.0 (#38)
+[33mb94b019[m fix: get rid of daisyui
+[33m412f024[m fix: realclose is inverted
+[33m1e470cf[m feat: add file selector to send
+[33mf8ee0be[m feat: add ability to reopen received links (#35)
+[33ma5ae4d8[m[33m ([m[1;33mtag: v0.3.0[m[33m)[m chore(master): release 0.3.0 (#32)
+[33m5f32b66[m chore: remove limitation that doesn't apply
+[33mcb9b17b[m feat: temporarily visible mode (need ble) (#33)
+[33m0a20588[m fix: correct color for hover on light green
+[33m9dfc9b6[m chore: remove cargo-sort from fmt
+[33m03aedaa[m chore: refactor a bit the Tauri app
+[33m9fa3424[m chore: change license for GPL
+[33m860dff9[m feat: add ability to change device visibility
+[33m976fb4b[m chore: add info about building the project
+[33mbb3a633[m[33m ([m[1;33mtag: v0.2.0[m[33m)[m chore(master): release 0.2.0 (#19)
+[33m6c4aa27[m chore: update vite deps
+[33m76db73c[m ci: don't upload folder for artifact of debug runs
+[33m34357cb[m ci: add missing cache entry
+[33m5516783[m feat: tauri v1 & build on 20.04 (#24)
+[33m783d443[m chore: minor typo fix and link to Files app (#25)
+[33m9711ab3[m feat: release process specify GLIBC version in filename
+[33m64c1ca9[m feat: add option to configure close action
+[33m5203a1e[m feat: add optimization profile for release
+[33m1f7c986[m feat: implement logging into a file
+[33m8f11566[m fix: parse_mdns_info fix device_type & test
+[33m1636858[m chore: oops, forgot link to Shortcut maker
+[33mc856aa8[m[33m ([m[1;33mtag: v0.1.1[m[33m)[m chore(master): release 0.1.1 (#18)
+[33m67be6a7[m fix: icon in systemtray is now ok
+[33mf5b618e[m chore: update readme with FAQ
+[33m18d0fba[m fix: don't crash if no BT & fix some unwrap
+[33m9e8d15c[m chore: update readme
+[33m9afa5d1[m chore: remove irrelevant comment
+[33m1dd6102[m chore: update readme
+[33mb5ac739[m[33m ([m[1;33mtag: v0.1.0[m[33m)[m chore(master): release 0.1.0 (#17)
+[33mdb75248[m ci: simplify workflows
+[33m32e1939[m fix: release: correct process (attempt#1)
+[33m42f901f[m feat: display if the user rejected
+[33md6d9410[m chore: remove irrelevant comment
+[33mf36316d[m feat: don't use hardcoded key anymore
+[33m2eaf7a3[m ci: build save appimage for the app
+[33ma1edb7e[m chore: enable experimental feature and use short UUID for BLEA
+[33m850dbef[m chore: change log level for prod
+[33m87f49a8[m fix: apply autostart if no value
+[33made8a94[m fix: release all linux bundles
+[33m771a181[m chore: release master (#14)
+[33mf9661fd[m feat: real hostname in UI
+[33m566894c[m fix: notifications blocked the thread
+[33mc690644[m chore: add demo image for GH
+[33mde66a09[m feat: add disable/enable start on boot
+[33mdb14a39[m feat(ui): add version info
+[33m2990fba[m ci: take deb, rpm, appImage bundle
+[33mb989b05[m feat: release process
+[33m1187b44[m feat: move tauri to V2 & BLEA behind feature
+[33m5b7882f[m ci: save all version bundle
+[33ma6f52b4[m fix: unlisten & blur/focus fixes
+[33me904683[m feat: autostart at boot
+[33m8c5b954[m fix: use vendored tls
+[33mdba308f[m ci: upload deb file
+[33m497c61c[m chore: change icon
+[33me85b8f1[m chore: reorder deps
+[33md8ae730[m feat(wip): try to send BLE advertisment when sending
+[33m7120162[m feat(improve): stabilise UI & communication
+[33macbb5aa[m chore: update readme
+[33m53890f0[m feat: sending file working (and wip UI)
+[33m56e32c1[m feat(wip): outbound handle paired_key_result
+[33m21c7dd8[m feat(wip): outbound handle connection response
+[33md4f2da5[m feat(wip): implement base for outbound transfer
+[33m748cbbb[m feat(ui): tray allow to open app
+[33m072ac8d[m chore: update readme
+[33m9b898aa[m chore(ui): change icons
+[33md402374[m fix(ui): improve style
+[33mba050bb[m feat: add notifications
+[33mc401a48[m chore: pre-commit format all (TS, Rust)
+[33m4bd3e83[m feat: improve UI & handling of requests
+[33m8ae9e68[m ci: fix pre-commit format for Rust
+[33m6452132[m feat: somewhat working UI channel with Rust
+[33mc2072b5[m feat: export common structs to TS
+[33m428e141[m fix: linting
+[33m74803b9[m chore: add quick how to use
+[33mfc2a28a[m feat: prepare tauri to send cmd
+[33med7453b[m fix: only handle own id for inbound channel
+[33m72ef7bc[m fix: wrong path for dep
+[33mbe77c7b[m chore: add format to pre-commit
+[33m45d9d7c[m feat: front-backend communication channel
+[33m8560c82[m chore: add pre-commit to always lint rust code & ..
+[33m8853366[m ci: add lint for tauri
+[33mbecf516[m feat: make the core_lib actually being a lib
+[33mccbc08d[m feat: auto_addr only V4
+[33m85ba07b[m chore: move backend>hdl
+[33md989683[m feat!: add frontend(tauri) & move current to core_lib
+[33m2aa4701[m feat: resend broadcast mdns if nearby sharing
+[33mcde67c0[m feat: update transfer_metadata for future use
+[33m99fa239[m ci: fix libdbus missing
+[33mb400275[m feat: add BLE listening for nearby device sharing
+[33m2de772c[m chore: move all related to backend in specific folder
+[33m6d83183[m feat: remove random mdns name
+[33mb1e26ce[m feat: implement encrypted files transfer
+[33mc1b9edc[m feat: implement key-exchange, pre-encryption
+[33m76c28b7[m feat: add TcpListener & parse proto
+[33m34b599b[m chore: if debug, add u8 to hostname
+[33mcde58ea[m chore: update README
+[33ma17552c[m chore: readme add credits
+[33mb92d514[m ci: setup workflows for github
+[33mc3ae5b0[m chore: add LICENSE & README
+[33mebd2386[m feat: implement mDNS service broadcast
+[33m143df16[m feat: init
